@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100vh;
+}
+
+.form-control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.form-control > * {
+    margin: 0.2rem;
+    height: 30px;
+    font-size: 25px;
+}
+
+.submit-button {
+    width: 300px;
+}
+
+.dancing-button {
+    height: 30px;
+}
+
+.right {
+    transform: translateX(450%);
+    transition: all 100ms ease;
+}
+
+.left {
+    transform: translateX(0%);
+    transition: all 100ms ease;
+}
