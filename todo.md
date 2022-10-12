@@ -1,1 +1,1 @@
-[*] Add form validation to work with the joker login
+- [x] Add form validation to work with the joker login
